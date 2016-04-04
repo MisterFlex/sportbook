@@ -1,0 +1,3 @@
+core_notice_homepage:
+    path:     /
+    defaults: { _controller: CoreNoticeBundle:Default:index }

@@ -1,0 +1,4 @@
+services:
+#    core_sport.example:
+#        class: Core\SportBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

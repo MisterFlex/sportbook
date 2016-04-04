@@ -1,0 +1,3 @@
+core_calendar_homepage:
+    path:     /
+    defaults: { _controller: CoreCalendarBundle:Default:index }
