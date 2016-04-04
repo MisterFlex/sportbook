@@ -1,3 +1,23 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+core_calendar:
+    resource: "@CoreCalendarBundle/Resources/config/routing.yml"
+    prefix:   /
+
+core_notice:
+    resource: "@CoreNoticeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+core_sport:
+    resource: "@CoreSportBundle/Resources/config/routing.yml"
+    prefix:   /
+
+core_app:
+    resource: "@CoreAppBundle/Resources/config/routing.yml"
+    prefix:   /
+
+core_admin:
+    resource: "@CoreAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
+core_user:
+    resource: "@CoreUserBundle/Resources/config/routing.yml"
+    prefix:   /
