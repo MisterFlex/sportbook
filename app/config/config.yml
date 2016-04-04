@@ -36,6 +36,9 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    globals:
+        host : "%host%"
+        contact: "%contact%"
 
 # Doctrine Configuration
 doctrine:
